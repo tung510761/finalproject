@@ -4,14 +4,6 @@ title: "R final project"
 date: |
   | 2019-12-27
   |
-output:
-  html_document:
-    number_sections: yes
-    highlight: tango
-    toc: yes
-    toc_float:
-      collapsed: no
-    css: style.css
 runtime: shiny
 ---
 
@@ -221,14 +213,4 @@ server <- function(input, output) {
 shinyApp(ui = ui, server = server)
 
 ```
-
-
-
-
-
-
-
-
-
-
 
